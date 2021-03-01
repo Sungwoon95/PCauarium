@@ -1,0 +1,3317 @@
+.ball {
+  width:100%;
+  height: 100%; 
+  background-color: transparent;
+  overflow: hidden; top:0px; left:0px; 
+position: absolute; z-index: -1;}
+
+.water {
+  z-index: 15;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  border-radius: 50%;
+  background-color: #74bcde; }
+  .water:nth-child(1) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-1 15s 4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-1 {
+  from {
+    transform: translate(30vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(2) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-2 27s 2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-2 {
+  from {
+    transform: translate(42vw, 1100px); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(3) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-3 34s -2s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-3 {
+  from {
+    transform: translate(36vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(4) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-4 15s -1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-4 {
+  from {
+    transform: translate(51vw, 1100px); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(5) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-5 27s -10s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-5 {
+  from {
+    transform: translate(50vw, 1100px); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(6) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-6 19s 2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-6 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(7) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-7 27s -4s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-7 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(8) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-8 23s -4s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-8 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(9) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-9 30s -9s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-9 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(10) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-10 28s -1s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-10 {
+  from {
+    transform: translate(49vw, 1100px); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(11) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-11 19s -1s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-11 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(12) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-12 26s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-12 {
+  from {
+    transform: translate(56vw, 1100px); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(13) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-13 25s -10s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-13 {
+  from {
+    transform: translate(42vw, 1100px); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(14) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-14 10s -2s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-14 {
+  from {
+    transform: translate(51vw, 1100px); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(15) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-15 24s 0s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-15 {
+  from {
+    transform: translate(30vw, 1100px); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(16) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-16 30s 0s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-16 {
+  from {
+    transform: translate(38vw, 1100px); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(17) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-17 20s -9s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-17 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(18) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-18 19s 3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-18 {
+  from {
+    transform: translate(43vw, 1100px); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(19) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-19 30s -4s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-19 {
+  from {
+    transform: translate(41vw, 1100px); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(20) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-20 25s 1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-20 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(21) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-21 12s -1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-21 {
+  from {
+    transform: translate(57vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(22) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-22 34s 0s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-22 {
+  from {
+    transform: translate(57vw, 1100px); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(23) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-23 14s -9s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-23 {
+  from {
+    transform: translate(32vw, 1100px); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(24) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-24 32s -8s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-24 {
+  from {
+    transform: translate(32vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(25) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-25 33s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-25 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(26) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-26 30s 4s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-26 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(27) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-27 12s -3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-27 {
+  from {
+    transform: translate(38vw, 1100px); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(28) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-28 17s -2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-28 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(29) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-29 27s -2s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-29 {
+  from {
+    transform: translate(44vw, 1100px); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(30) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-30 10s -2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-30 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(31) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-31 22s -2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-31 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(32) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-32 12s -6s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-32 {
+  from {
+    transform: translate(39vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(33) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-33 17s -10s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-33 {
+  from {
+    transform: translate(37vw, 1100px); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(34) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-34 21s 1s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-34 {
+  from {
+    transform: translate(42vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(35) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-35 19s -3s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-35 {
+  from {
+    transform: translate(30vw, 1100px); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(36) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-36 29s -10s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-36 {
+  from {
+    transform: translate(44vw, 1100px); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(37) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-37 25s 4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-37 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(38) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-38 12s -2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-38 {
+  from {
+    transform: translate(56vw, 1100px); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(39) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-39 31s -1s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-39 {
+  from {
+    transform: translate(43vw, 1100px); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(40) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-40 12s 2s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-40 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(41) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-41 15s -2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-41 {
+  from {
+    transform: translate(42vw, 1100px); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(42) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-42 20s -2s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-42 {
+  from {
+    transform: translate(38vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(43) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-43 32s -5s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-43 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(44) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-44 20s 2s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-44 {
+  from {
+    transform: translate(35vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(45) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-45 12s -6s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-45 {
+  from {
+    transform: translate(35vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(46) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-46 27s 1s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-46 {
+  from {
+    transform: translate(34vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(47) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-47 19s -3s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-47 {
+  from {
+    transform: translate(37vw, 1100px); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(48) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-48 21s 3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-48 {
+  from {
+    transform: translate(48vw, 1100px); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(49) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-49 16s -1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-49 {
+  from {
+    transform: translate(36vw, 1100px); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(50) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-50 31s -2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-50 {
+  from {
+    transform: translate(43vw, 1100px); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(51) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-51 15s -3s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-51 {
+  from {
+    transform: translate(42vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(52) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-52 20s -2s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-52 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(53) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-53 11s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-53 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(54) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-54 15s 3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-54 {
+  from {
+    transform: translate(54vw, 1100px); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(55) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-55 29s -8s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-55 {
+  from {
+    transform: translate(31vw, 1100px); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(56) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-56 10s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-56 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(57) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-57 18s -3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-57 {
+  from {
+    transform: translate(43vw, 1100px); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(58) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-58 13s -9s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-58 {
+  from {
+    transform: translate(44vw, 1100px); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(59) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-59 17s -9s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-59 {
+  from {
+    transform: translate(41vw, 1100px); }
+  to {
+    transform: translate(35vw, -20px); } }
+  .water:nth-child(60) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-60 29s -8s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-60 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(61) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-61 26s -4s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-61 {
+  from {
+    transform: translate(45vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(62) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-62 25s -8s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-62 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(63) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-63 31s -8s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-63 {
+  from {
+    transform: translate(41vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(64) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-64 30s -9s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-64 {
+  from {
+    transform: translate(39vw, 1100px); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(65) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-65 15s 1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-65 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(66) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-66 28s -9s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-66 {
+  from {
+    transform: translate(31vw, 1100px); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(67) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-67 11s 0s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-67 {
+  from {
+    transform: translate(41vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(68) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-68 15s 0s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-68 {
+  from {
+    transform: translate(59vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(69) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-69 32s -1s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-69 {
+  from {
+    transform: translate(41vw, 1100px); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(70) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-70 31s -1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-70 {
+  from {
+    transform: translate(57vw, 1100px); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(71) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-71 26s 4s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-71 {
+  from {
+    transform: translate(46vw, 1100px); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(72) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-72 31s -3s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-72 {
+  from {
+    transform: translate(32vw, 1100px); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(73) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-73 21s -7s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-73 {
+  from {
+    transform: translate(53vw, 1100px); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(74) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-74 24s 4s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-74 {
+  from {
+    transform: translate(39vw, 1100px); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(75) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-75 34s -6s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-75 {
+  from {
+    transform: translate(50vw, 1100px); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(76) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-76 15s 4s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-76 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(77) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-77 28s -9s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-77 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(78) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-78 17s -6s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-78 {
+  from {
+    transform: translate(40vw, 1100px); }
+  to {
+    transform: translate(32vw, -20px); } }
+  .water:nth-child(79) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-79 12s 1s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-79 {
+  from {
+    transform: translate(45vw, 1100px); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(80) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-80 16s 2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-80 {
+  from {
+    transform: translate(53vw, 1100px); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(81) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-81 29s -7s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-81 {
+  from {
+    transform: translate(31vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(82) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-82 25s -10s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-82 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(83) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-83 19s -5s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-83 {
+  from {
+    transform: translate(37vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(84) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-84 26s 3s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-84 {
+  from {
+    transform: translate(31vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(85) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-85 20s -10s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-85 {
+  from {
+    transform: translate(59vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(86) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-86 30s 4s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-86 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(87) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-87 18s -1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-87 {
+  from {
+    transform: translate(52vw, 1100px); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(88) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-88 29s -4s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-88 {
+  from {
+    transform: translate(30vw, 1100px); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(89) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-89 22s 0s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-89 {
+  from {
+    transform: translate(58vw, 1100px); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(90) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-90 10s -9s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-90 {
+  from {
+    transform: translate(35vw, 1100px); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(91) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-91 13s 0s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-91 {
+  from {
+    transform: translate(44vw, 1100px); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(92) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-92 22s 3s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-92 {
+  from {
+    transform: translate(30vw, 1100px); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(93) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-93 24s -6s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-93 {
+  from {
+    transform: translate(50vw, 1100px); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(94) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-94 11s 1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-94 {
+  from {
+    transform: translate(55vw, 1100px); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(95) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-95 14s 3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-95 {
+  from {
+    transform: translate(43vw, 1100px); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(96) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-96 34s -8s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-96 {
+  from {
+    transform: translate(39vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(97) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-97 30s 2s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-97 {
+  from {
+    transform: translate(38vw, 1100px); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(98) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-98 14s -10s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-98 {
+  from {
+    transform: translate(36vw, 1100px); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(99) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-99 23s 2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-99 {
+  from {
+    transform: translate(37vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(100) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-100 23s -3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-100 {
+  from {
+    transform: translate(37vw, 1100px); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(101) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-101 26s -5s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-101 {
+  from {
+    transform: translate(56vw, 1100px); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(102) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-102 22s -4s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-102 {
+  from {
+    transform: translate(56vw, 1100px); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(103) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-103 21s -9s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-103 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(104) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-104 15s 0s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-104 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(105) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-105 13s -5s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-105 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(106) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-106 18s -4s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-106 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(107) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-107 14s -3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-107 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(108) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-108 17s 2s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-108 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(32vw, -20px); } }
+  .water:nth-child(109) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-109 26s -10s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-109 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(110) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-110 17s -9s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-110 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(111) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-111 17s -10s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-111 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(112) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-112 34s 3s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-112 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(113) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-113 11s 1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-113 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(114) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-114 25s 1s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-114 {
+  from {
+    transform: translate(37vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(115) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-115 34s -7s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-115 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(116) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-116 26s -3s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-116 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(117) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-117 28s 1s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-117 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(118) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-118 19s -5s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-118 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(119) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-119 14s -4s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-119 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(120) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-120 33s 3s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-120 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(121) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-121 31s -9s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-121 {
+  from {
+    transform: translate(46vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(122) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-122 33s -8s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-122 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(123) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-123 19s 3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-123 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(124) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-124 21s -3s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-124 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(125) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-125 18s -6s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-125 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(126) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-126 12s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-126 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(42vw, -20px); } }
+  .water:nth-child(127) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-127 13s -2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-127 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(128) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-128 20s -4s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-128 {
+  from {
+    transform: translate(37vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(129) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-129 17s -10s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-129 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(130) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-130 11s -8s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-130 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(131) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-131 24s 1s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-131 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(132) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-132 11s -4s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-132 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(133) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-133 15s -8s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-133 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(134) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-134 12s 0s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-134 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(135) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-135 13s 1s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-135 {
+  from {
+    transform: translate(58vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(136) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-136 19s -1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-136 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(137) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-137 24s -8s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-137 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(138) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-138 19s 0s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-138 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(35vw, -20px); } }
+  .water:nth-child(139) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-139 17s -1s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-139 {
+  from {
+    transform: translate(37vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(140) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-140 32s -9s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-140 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(141) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-141 22s -5s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-141 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(142) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-142 20s -7s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-142 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(143) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-143 30s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-143 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(144) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-144 25s -3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-144 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(145) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-145 27s 3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-145 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(35vw, -20px); } }
+  .water:nth-child(146) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-146 30s -8s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-146 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(147) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-147 34s 2s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-147 {
+  from {
+    transform: translate(34vw, 100%); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(148) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-148 24s -6s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-148 {
+  from {
+    transform: translate(46vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(149) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-149 17s 3s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-149 {
+  from {
+    transform: translate(35vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(150) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-150 31s -3s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-150 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(151) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-151 25s -2s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-151 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(152) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-152 33s -10s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-152 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(153) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-153 12s 4s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-153 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(154) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-154 29s 0s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-154 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(155) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-155 19s 0s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-155 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(156) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-156 16s -6s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-156 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(157) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-157 21s 3s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-157 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(158) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-158 16s -5s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-158 {
+  from {
+    transform: translate(34vw, 100%); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(159) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-159 13s -2s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-159 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(160) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-160 33s 0s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-160 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(161) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-161 26s 2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-161 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(162) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-162 19s 2s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-162 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(163) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-163 17s -6s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-163 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(164) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-164 16s -7s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-164 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(165) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-165 20s -10s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-165 {
+  from {
+    transform: translate(53vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(166) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-166 24s -2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-166 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(167) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-167 17s 4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-167 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(168) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-168 28s -9s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-168 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(169) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-169 34s -9s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-169 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(170) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-170 11s -10s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-170 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(171) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-171 34s 3s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-171 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(172) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-172 17s -10s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-172 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(173) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-173 21s -3s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-173 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(174) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-174 17s -7s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-174 {
+  from {
+    transform: translate(49vw, 100%); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(175) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-175 11s 1s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-175 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(176) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-176 26s 4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-176 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(177) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-177 34s -7s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-177 {
+  from {
+    transform: translate(55vw, 100%); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(178) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-178 10s 3s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-178 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(179) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-179 18s 4s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-179 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(180) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-180 11s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-180 {
+  from {
+    transform: translate(53vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(181) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-181 33s -3s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-181 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(182) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-182 31s 1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-182 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(42vw, -20px); } }
+  .water:nth-child(183) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-183 30s 2s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-183 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(184) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-184 20s 2s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-184 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(185) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-185 13s -9s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-185 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(186) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-186 12s 2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-186 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(187) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-187 25s -3s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-187 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(188) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-188 20s -7s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-188 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(189) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-189 15s -1s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-189 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(190) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-190 27s -8s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-190 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(191) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-191 27s -2s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-191 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(192) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-192 31s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-192 {
+  from {
+    transform: translate(36vw, 100%); }
+  to {
+    transform: translate(35vw, -20px); } }
+  .water:nth-child(193) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-193 17s -1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-193 {
+  from {
+    transform: translate(53vw, 100%); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(194) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-194 26s 3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-194 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(195) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-195 11s -8s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-195 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(196) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-196 22s -1s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-196 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(197) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-197 23s -10s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-197 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(198) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-198 29s -1s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-198 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(199) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-199 10s -2s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-199 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(200) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-200 23s 2s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-200 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(201) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-201 10s -4s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-201 {
+  from {
+    transform: translate(35vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(202) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-202 30s -8s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-202 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(203) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-203 22s -5s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-203 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(204) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-204 21s 1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-204 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(205) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-205 14s -6s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-205 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(206) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-206 13s -7s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-206 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(207) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-207 20s -4s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-207 {
+  from {
+    transform: translate(35vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(208) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-208 34s -1s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-208 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(209) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-209 12s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-209 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(210) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-210 28s 2s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-210 {
+  from {
+    transform: translate(36vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(211) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-211 18s -9s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-211 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(212) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-212 27s -9s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-212 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(213) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-213 15s -4s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-213 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(214) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-214 13s -10s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-214 {
+  from {
+    transform: translate(53vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(215) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-215 34s -5s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-215 {
+  from {
+    transform: translate(51vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(216) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-216 17s -5s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-216 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(217) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-217 15s -7s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-217 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(218) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-218 23s -6s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-218 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(219) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-219 32s -1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-219 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(220) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-220 23s -1s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-220 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(221) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-221 34s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-221 {
+  from {
+    transform: translate(46vw, 100%); }
+  to {
+    transform: translate(42vw, -20px); } }
+  .water:nth-child(222) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-222 31s 0s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-222 {
+  from {
+    transform: translate(34vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(223) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-223 28s -9s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-223 {
+  from {
+    transform: translate(34vw, 100%); }
+  to {
+    transform: translate(55vw, -20px); } }
+  .water:nth-child(224) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-224 14s -10s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-224 {
+  from {
+    transform: translate(58vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(225) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-225 24s -10s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-225 {
+  from {
+    transform: translate(53vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(226) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-226 18s -3s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-226 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(227) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-227 14s -5s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-227 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(228) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-228 32s -8s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-228 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(229) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-229 29s 2s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-229 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(230) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-230 12s -5s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-230 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(231) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-231 28s -7s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-231 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(232) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-232 28s -7s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-232 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(233) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-233 12s -6s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-233 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(234) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-234 34s 1s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-234 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(235) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-235 22s -6s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-235 {
+  from {
+    transform: translate(36vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(236) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-236 25s -2s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-236 {
+  from {
+    transform: translate(38vw, 100%); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(237) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-237 34s -4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-237 {
+  from {
+    transform: translate(41vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(238) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-238 19s 2s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-238 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(239) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-239 34s -5s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-239 {
+  from {
+    transform: translate(58vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(240) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-240 26s 3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-240 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(241) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-241 12s -6s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-241 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(242) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-242 21s 0s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-242 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(58vw, -20px); } }
+  .water:nth-child(243) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-243 16s -4s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-243 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(244) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-244 14s -10s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-244 {
+  from {
+    transform: translate(55vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(245) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-245 29s -2s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-245 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(246) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-246 29s -9s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-246 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(247) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-247 34s 4s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-247 {
+  from {
+    transform: translate(39vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(248) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-248 19s -2s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-248 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(249) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-249 28s -2s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-249 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(250) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-250 22s -5s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-250 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(251) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-251 22s -2s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-251 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(252) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-252 32s -1s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-252 {
+  from {
+    transform: translate(44vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(253) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-253 12s -1s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-253 {
+  from {
+    transform: translate(54vw, 100%); }
+  to {
+    transform: translate(36vw, -20px); } }
+  .water:nth-child(254) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-254 14s 2s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-254 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(39vw, -20px); } }
+  .water:nth-child(255) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-255 29s -8s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-255 {
+  from {
+    transform: translate(35vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(256) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-256 16s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-256 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(32vw, -20px); } }
+  .water:nth-child(257) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-257 25s -5s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-257 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(258) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-258 15s 2s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-258 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(259) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-259 33s -9s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-259 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(260) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-260 25s -4s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-260 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(261) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-261 32s -8s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-261 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(50vw, -20px); } }
+  .water:nth-child(262) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-262 23s 1s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-262 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(263) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-263 10s 0s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-263 {
+  from {
+    transform: translate(52vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(264) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-264 30s -1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-264 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(265) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-265 31s -6s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-265 {
+  from {
+    transform: translate(55vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+  .water:nth-child(266) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-266 20s -10s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-266 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(267) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-267 14s 4s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-267 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(268) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-268 13s -1s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-268 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(49vw, -20px); } }
+  .water:nth-child(269) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-269 34s -9s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-269 {
+  from {
+    transform: translate(56vw, 100%); }
+  to {
+    transform: translate(56vw, -20px); } }
+  .water:nth-child(270) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-270 17s -6s linear infinite;
+    opacity: 0.3; }
+@keyframes fall-270 {
+  from {
+    transform: translate(51vw, 100%); }
+  to {
+    transform: translate(40vw, -20px); } }
+  .water:nth-child(271) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-271 24s -10s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-271 {
+  from {
+    transform: translate(42vw, 100%); }
+  to {
+    transform: translate(45vw, -20px); } }
+  .water:nth-child(272) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-272 15s -1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-272 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(273) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-273 24s -4s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-273 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(57vw, -20px); } }
+  .water:nth-child(274) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-274 19s 2s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-274 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(59vw, -20px); } }
+  .water:nth-child(275) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-275 22s -9s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-275 {
+  from {
+    transform: translate(49vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(276) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-276 32s -6s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-276 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(37vw, -20px); } }
+  .water:nth-child(277) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-277 19s 3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-277 {
+  from {
+    transform: translate(33vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(278) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-278 13s -6s linear infinite;
+    opacity: 0.2; }
+@keyframes fall-278 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(44vw, -20px); } }
+  .water:nth-child(279) {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    animation: fall-279 26s -5s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-279 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(42vw, -20px); } }
+  .water:nth-child(280) {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: fall-280 34s -10s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-280 {
+  from {
+    transform: translate(45vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(281) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-281 14s 2s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-281 {
+  from {
+    transform: translate(43vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(282) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-282 31s -6s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-282 {
+  from {
+    transform: translate(55vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(283) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall-283 27s 1s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-283 {
+  from {
+    transform: translate(50vw, 100%); }
+  to {
+    transform: translate(47vw, -20px); } }
+  .water:nth-child(284) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-284 34s -10s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-284 {
+  from {
+    transform: translate(32vw, 100%); }
+  to {
+    transform: translate(30vw, -20px); } }
+  .water:nth-child(285) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-285 11s -10s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-285 {
+  from {
+    transform: translate(36vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(286) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-286 11s -4s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-286 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(52vw, -20px); } }
+  .water:nth-child(287) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-287 14s 0s linear infinite;
+    opacity: 0.4; }
+@keyframes fall-287 {
+  from {
+    transform: translate(47vw, 100%); }
+  to {
+    transform: translate(41vw, -20px); } }
+  .water:nth-child(288) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-288 25s -4s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-288 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(289) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-289 25s 3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-289 {
+  from {
+    transform: translate(48vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(290) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-290 29s 3s linear infinite;
+    opacity: 0.1; }
+@keyframes fall-290 {
+  from {
+    transform: translate(36vw, 100%); }
+  to {
+    transform: translate(46vw, -20px); } }
+  .water:nth-child(291) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    animation: fall-291 20s -9s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-291 {
+  from {
+    transform: translate(55vw, 100%); }
+  to {
+    transform: translate(48vw, -20px); } }
+  .water:nth-child(292) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-292 20s -4s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-292 {
+  from {
+    transform: translate(46vw, 100%); }
+  to {
+    transform: translate(33vw, -20px); } }
+  .water:nth-child(293) {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: fall-293 24s -9s linear infinite;
+    opacity: 0.05; }
+@keyframes fall-293 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(38vw, -20px); } }
+  .water:nth-child(294) {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    animation: fall-294 12s -1s linear infinite;
+    opacity: 0.15; }
+@keyframes fall-294 {
+  from {
+    transform: translate(30vw, 100%); }
+  to {
+    transform: translate(31vw, -20px); } }
+  .water:nth-child(295) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-295 17s -7s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-295 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(34vw, -20px); } }
+  .water:nth-child(296) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall-296 14s -3s linear infinite;
+    opacity: 0.35; }
+@keyframes fall-296 {
+  from {
+    transform: translate(40vw, 100%); }
+  to {
+    transform: translate(53vw, -20px); } }
+  .water:nth-child(297) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-297 33s -8s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-297 {
+  from {
+    transform: translate(37vw, 100%); }
+  to {
+    transform: translate(54vw, -20px); } }
+  .water:nth-child(298) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: fall-298 26s -9s linear infinite;
+    opacity: 0.45; }
+@keyframes fall-298 {
+  from {
+    transform: translate(59vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(299) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: fall-299 26s 3s linear infinite;
+    opacity: 0.5; }
+@keyframes fall-299 {
+  from {
+    transform: translate(31vw, 100%); }
+  to {
+    transform: translate(51vw, -20px); } }
+  .water:nth-child(300) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: fall-300 31s -10s linear infinite;
+    opacity: 0.25; }
+@keyframes fall-300 {
+  from {
+    transform: translate(57vw, 100%); }
+  to {
+    transform: translate(43vw, -20px); } }
+
+/*# sourceMappingURL=output.css.map */

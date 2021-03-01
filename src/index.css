@@ -1,0 +1,995 @@
+@font-face {
+  font-family: 'Wemakeprice-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  padding-top: 80px;
+  background-image: url(../img/backPIC.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.categoryTitle {
+  font-family: 'Wemakeprice-Bold';
+  color: #383838;
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.categoryText {
+  font-family: 'Wemakeprice-Bold';
+  color: #383838;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.menuDown {
+  top: 160px;
+  -webkit-animation: down 1s ease-out 1 Alternate;
+  animation: down 1s ease-out 1 Alternate;
+}
+
+.menuUp {
+  top: 0px;
+  -webkit-animation: up 1s ease-out 1 Alternate;
+  animation: up 1s ease-out 1 Alternate;
+}
+
+.menuFix {
+  top: 0px;
+}
+
+@-webkit-keyframes down {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 160px;
+  }
+}
+
+@keyframes down {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 160px;
+  }
+}
+
+@-webkit-keyframes up {
+  from {
+    top: 160px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes up {
+  from {
+    top: 160px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  height: 80px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#74dcde), to(#74bdce));
+  background: linear-gradient(#74dcde, #74bdce);
+  -webkit-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
+  border-bottom: 1px solid #ffffff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.headUp {
+  top: -80px;
+}
+
+header .hTop {
+  height: 20px;
+  position: relative;
+}
+
+header .hTop ul {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+}
+
+header .hTop ul li {
+  float: left;
+  height: 100%;
+  padding: 0 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .hTop ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+header .hTop ul li a:hover {
+  color: #fbc557;
+}
+
+header .hBot {
+  height: 60px;
+  position: relative;
+}
+
+header .hBot h1 {
+  width: 60px;
+  height: 100%;
+  float: left;
+}
+
+header .hBot h1 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+header .hBot img {
+  width: 100%;
+}
+
+header .hBot ul {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+header .hBot ul .mainMenu {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 150px;
+}
+
+header .hBot ul .mainMenu .mainLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Wemakeprice-Bold';
+  position: relative;
+}
+
+header .hBot ul .mainMenu .mainLink:hover {
+  color: #fbc557;
+}
+
+header .hBot ul .mainMenu .dropDown {
+  width: 150px;
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+header .hBot ul .mainMenu .dropDown .subMenu {
+  width: 100%;
+  background-color: #f0f0f0f0;
+}
+
+header .hBot ul .mainMenu .dropDown .subMenu a {
+  width: 100%;
+  color: #383838;
+  font-size: 12px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+
+header .hBot ul .mainMenu .dropDown .subMenu a:hover {
+  color: #74bcde;
+}
+
+.visualImg {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.visualImg .inner {
+  height: 450px;
+  position: relative;
+}
+
+.visualImg .visualWrap {
+  width: 1200px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.visualImg .visual {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.visualImg .visual a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.visualImg img {
+  width: 100%;
+  height: 450px;
+}
+
+.visualImg button {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid #74bcde;
+  position: absolute;
+  top: 20%;
+  color: #74bcde;
+  font-size: 36px;
+}
+
+.visualImg button:hover {
+  background-color: #74bcde;
+  color: #ffffff;
+}
+
+.visualImg button.prev {
+  right: 140px;
+}
+
+.visualImg button.next {
+  right: 60px;
+}
+
+.direct {
+  background-color: #ffffff;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.direct a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.direct img {
+  width: 100%;
+}
+
+.direct .leftMenu {
+  width: 50%;
+  height: 120px;
+  float: left;
+  background-color: #383838;
+  position: relative;
+}
+
+.direct .leftMenu .leftIcon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 40px;
+  top: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.direct .leftMenu .leftText {
+  position: absolute;
+  width: 300px;
+  right: 150px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.direct .rightMenu {
+  width: 50%;
+  height: 120px;
+  float: left;
+  background-color: #cccccc;
+  position: relative;
+}
+
+.direct .rightMenu .rightIcon {
+  position: absolute;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.direct .rightMenu .rightText {
+  position: absolute;
+  width: 300px;
+  left: 150px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.direct p {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.direct .leftMenu .leftText a {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.direct .rightMenu .rightText a {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.hotFish {
+  background-color: #ffffff;
+  padding: 80px 0px;
+  position: relative;
+}
+
+.hotFish .fish {
+  height: 740px;
+  position: relative;
+}
+
+.hotFish a {
+  display: block;
+  width: 250px;
+  height: 180px;
+}
+
+.hotFish img {
+  width: 100%;
+  height: 180px;
+}
+
+.hotFish .fir {
+  width: 250px;
+  float: left;
+  z-index: 6;
+  top: 0;
+  left: 25px;
+  position: absolute;
+}
+
+.hotFish .sec {
+  width: 250px;
+  float: left;
+  z-index: 6;
+  bottom: 0;
+  left: 325px;
+  position: absolute;
+}
+
+.hotFish .thr {
+  width: 250px;
+  float: left;
+  z-index: 6;
+  top: 0;
+  right: 325px;
+  position: absolute;
+}
+
+.hotFish .fou {
+  width: 250px;
+  float: left;
+  z-index: 6;
+  bottom: 0;
+  right: 25px;
+  position: absolute;
+}
+
+.hotFish .red {
+  position: relative;
+  outline: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 50px;
+  height: 180px;
+}
+
+.hotFish .blu {
+  position: relative;
+  outline: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.hotFish .bck {
+  position: relative;
+  outline: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.hotFish .red .mouseOver {
+  background-color: rgba(116, 188, 222, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 180px;
+}
+
+.hotFish .red .mouseOver .icon {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.hotFish .red .mouseOver .icon a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.hotFish .red .mouseOver .icon a:hover {
+  color: #fbc557;
+}
+
+.hotFish .red .mouseOver .fishName {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.hotFish .red .mouseOver .fishPrice {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hotFish .blu .mouseOver {
+  background-color: rgba(116, 188, 222, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 180px;
+}
+
+.hotFish .blu .mouseOver .icon {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.hotFish .blu .mouseOver .icon a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.hotFish .blu .mouseOver .icon a:hover {
+  color: #fbc557;
+}
+
+.hotFish .blu .mouseOver .fishName {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.hotFish .blu .mouseOver .fishPrice {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hotFish .bck .mouseOver {
+  background-color: rgba(116, 188, 222, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 180px;
+}
+
+.hotFish .bck .mouseOver .icon {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.hotFish .bck .mouseOver .icon a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.hotFish .bck .mouseOver .icon a:hover {
+  color: #fbc557;
+}
+
+.hotFish .bck .mouseOver .fishName {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.hotFish .bck .mouseOver .fishPrice {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hotFish .see .mouseover .mouseLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+button.goView {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button.goView:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: #74bcde;
+}
+
+.product {
+  margin-top: 320px;
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+
+.product .pick .pickItem {
+  width: 580px;
+  height: 180px;
+  float: left;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.product .pick .pickItem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #383838;
+  outline: 1px solid #cccccc;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.product .pick .pickItem a .imgFlo {
+  width: 180px;
+  height: 100%;
+  float: left;
+  border-right: 2px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.product .pick .pickItem a img {
+  width: 100%;
+}
+
+.product .pick .pickItem a .proInfo {
+  margin-left: 20px;
+  float: left;
+  line-height: 180px;
+}
+
+.product .pick .pickItem a .proInfo h3 {
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.product .pick .pickItem a .proInfo p {
+  font-size: 18px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
+
+.product .pick .pickItem .btnWrap {
+  position: absolute;
+  top: 70%;
+  left: 200px;
+}
+
+.product .pick .pickItem .btnWrap .detail:hover {
+  border: 2px solid #cccccc;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #cccccc;
+}
+
+.product .pick .pickItem .btnWrap .cart:hover {
+  border: 2px solid #ff4d4d;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #ff4d4d;
+}
+
+.product .pick .pickItem .btnWrap .buyNow:hover {
+  border: 2px solid #74bcde;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #74bcde;
+}
+
+.product .pick .pickItem .btnWrap .detail {
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  border: 2px solid #cccccc;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #cccccc;
+  background-color: #ffffff;
+  margin-right: 5px;
+}
+
+.product .pick .pickItem .btnWrap .cart {
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  border: 2px solid #ff4d4d;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ff4d4d;
+  background-color: #ffffff;
+  margin-right: 5px;
+}
+
+.product .pick .pickItem .btnWrap .buyNow {
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  border: 2px solid #74bcde;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #74bcde;
+  background-color: #ffffff;
+  margin-right: 5px;
+}
+
+.product .pick .pickItem a .imgFlo .mouseOver {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 180px;
+  height: 100%;
+}
+
+.review {
+  margin-top: 160px;
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+
+.review .reviewCon {
+  width: 280px;
+  margin: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.review .reviewCon a {
+  height: 400px;
+  text-decoration: none;
+  color: #383838;
+  display: block;
+  border: 2px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.review .reviewCon a img {
+  width: 100%;
+}
+
+.review .reviewCon a p.star {
+  margin: 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.review .reviewCon a h3 {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #383838;
+  text-align: center;
+  overflow: hidden;
+}
+
+.review .reviewCon a p.txt {
+  color: #9e9e9e;
+  height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gallery {
+  margin-top: 160px;
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+
+.gallery .youtube {
+  text-align: center;
+}
+
+.gallery .snsTitle {
+  text-align: center;
+  margin: 10px 0px;
+  color: #383838;
+  font-size: 18px;
+  line-height: 36px;
+  font-family: 'Wemakeprice-Bold';
+}
+
+.gallery .insta .instaImg {
+  width: 140px;
+  height: 140px;
+  margin: 5px 5px;
+  float: left;
+  background-color: #cccccc;
+}
+
+.gallery .insta .instaImg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .insta .instaImg img {
+  width: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.gallery .insta .instaImg:hover img {
+  width: 100%;
+  -webkit-transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
+}
+
+footer {
+  background-color: #00490d;
+}
+
+footer .fTop {
+  height: 40px;
+  background-color: #007832;
+  border-bottom: 2px solid #555555;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer .fTop .info {
+  position: relative;
+}
+
+footer .fTop p {
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+footer .fTop ul {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+footer .fTop ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+footer .fTop ul li a {
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .fTop ul li a:hover {
+  color: #fbc557;
+}
+
+footer .fBot {
+  height: 280px;
+  background-color: #00490d;
+  position: relative;
+}
+
+footer .fBot .botLeft {
+  float: left;
+  position: absolute;
+  padding-right: 50px;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-right: 2px solid #555555;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer .fBot .botRight {
+  float: left;
+  position: absolute;
+  left: 600px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+footer .fBot .botLeft h2 a {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+footer .fBot .botLeft h2 img {
+  width: 100%;
+}
+
+footer .fBot .botLeft p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+footer .fBot .botLeft ul {
+  height: 20px;
+  margin-top: 10px;
+}
+
+footer .fBot .botLeft ul li.first {
+  padding-left: 0px;
+}
+
+footer .fBot .botLeft ul li {
+  float: left;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer .fBot .botLeft ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #cccccc;
+}
+
+footer .fBot .botLeft .copy {
+  margin-bottom: 20px;
+}
+
+footer .fBot .botRight p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #818181;
+}
+/*# sourceMappingURL=index.css.map */
